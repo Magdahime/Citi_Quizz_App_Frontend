@@ -34,7 +34,7 @@
 .centered {
     position: absolute;
     top: 50%;
-    right: 45%;
+    right: 30%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
@@ -105,6 +105,17 @@
     font-family: 'Paytone One', sans-serif;
     font-size: 60px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+.admin-dashboard-heading {
+  font-family: 'Castoro', serif;
+  font-size: 60px;
+}
+
+.signup-body {
+  height : 100vh
+}
+
 
 
 
