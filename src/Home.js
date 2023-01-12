@@ -19,12 +19,12 @@ class Home extends React.Component{
                     <NavLink style={{fontSize:'20px',color:'white'}} to='./adminlogin'>Admin login</NavLink>
                     </button>
                     </header>
-                    <hr></hr>
+                    <hr style={{borderTopColor:"#EEEEEE"}}></hr>
                 <div>
                     <div className="centered">
-                    <h1 className="h1" style={{marginTop:"0px"}}>Welcome to Quizee!</h1>
+                    <h1 className="h1" style={{marginTop:"0px", color: "#002D72"}}>Welcome to Quizee!</h1>
                     <br></br><br></br><br></br>
-                    <h1>Login to get started!</h1>
+                    <h1 style={{color:"rgb(0,189,242)"}}>Login to get started!</h1>
                     <Login></Login>
                     </div>
                 </div>       
