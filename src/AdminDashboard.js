@@ -1,5 +1,6 @@
 import React from "react"
 import './Home.css'
+// import './Login.css'
 import { NavLink } from 'react-router-dom'
 import NewQuiz from './QuizCreater/NewQuiz'
 

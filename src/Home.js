@@ -1,4 +1,3 @@
-
 import React from "react"
 import './Home.css'
 import Login from './Login'
@@ -28,11 +27,7 @@ class Home extends React.Component{
                     <h1>Login to get started!</h1>
                     <Login></Login>
                     </div>
-                </div>
-                
-
-            
-                    
+                </div>       
             </div>
         )
     }

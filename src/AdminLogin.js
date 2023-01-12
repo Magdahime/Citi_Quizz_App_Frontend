@@ -9,7 +9,7 @@ class AdminLogin extends React.Component{
         <div style={{backgroundColor:'#A2D2FF',paddingTop:'0px'}} className="signup-body">
         <hr></hr>
         <div style={{marginLeft:'600px',marginTop:'200px',backgroundColor:'white',width:'700px',height:'800px'}}>
-            <form style={{paddingTop:'160px',paddingLeft:'130px'}}>
+            <form style={{paddingTop:'160px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
             <h1>Admin Login!</h1>
             <input style={{height:'70px',width:'400px',borderWidth:'2px',borderWidth:'4px'}} type="input"  placeholder="Name" name="name" id='name' required />
             <br></br><br></br>
